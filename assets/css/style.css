@@ -30,7 +30,7 @@ main div{
     display: flex;
 }
 
-.maDiv1{
+.Profil{
     background-color: #782221;
     width: 400px; 
     display: flex;
@@ -38,10 +38,20 @@ main div{
     
 }
 
-.maDiv2{
+.Profil-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.Experience{
     width: 760px;
     display: flex;
     flex-direction: column;
     
+}
+
+.Experience-detail{
+    display: flex;
+    flex-direction: column;
 }
 
