@@ -28,6 +28,10 @@ div address{
     
 }
 
+div address:hover{
+    text-decoration: underline;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -37,6 +41,12 @@ img{
     width: 150px;
     clip-path: ellipse(50% 40%);
 }
+
+header img:hover{
+    cursor: zoom-in;
+
+}
+
 
 main div{
     display: flex;
@@ -74,6 +84,10 @@ main div{
     flex-direction: column;
 }
 
+main .Experience .Experience-detail:hover{
+   border-right: 5px solid #6D071A;
+}
+
 h3{
     background-color: #dbc2a4;
 }
@@ -105,4 +119,8 @@ footer img{
     padding-top: 10px;
     border-radius: 10px;
     clip-path: none;
+}
+
+footer img:hover{
+    opacity: 80%;
 }
